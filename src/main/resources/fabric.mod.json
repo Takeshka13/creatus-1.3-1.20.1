@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "creatus",
+	"version": "${version}",
+	"name": "creatus",
+	"description": "This is addon for create fabric",
+	"authors": [
+		"Takeshi13"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/creatus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.takeshi13.creatus.Creatus"
+		],
+		"fabric-datagen": [
+			"net.takeshi13.creatus.CreatusDataGenerator"
+		]
+	},
+	"mixins": [
+		"creatus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
