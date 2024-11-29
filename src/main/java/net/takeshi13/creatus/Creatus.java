@@ -2,6 +2,7 @@ package net.takeshi13.creatus;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.takeshi13.creatus.block.ModBlocks;
 import net.takeshi13.creatus.item.ModItemGroups;
 import net.takeshi13.creatus.item.ModItems;
 import org.slf4j.Logger;
@@ -15,8 +16,11 @@ public class Creatus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+
+		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+
 
 		LOGGER.info("Welcome to Creatus<3");
 	}

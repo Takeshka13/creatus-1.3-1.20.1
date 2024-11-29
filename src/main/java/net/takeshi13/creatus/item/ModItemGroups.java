@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.takeshi13.creatus.Creatus;
+import net.takeshi13.creatus.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -15,12 +16,15 @@ public class ModItemGroups {
             new Identifier(Creatus.MOD_ID, "creatus"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.creatus"))
                     .icon(() -> new ItemStack(ModItems.TITAN_INGOT)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.TITAN_INGOT);
                         entries.add(ModItems.TITAN_NUGGET);
+
+                        entries.add(ModBlocks.TITAN_BLOCK);
 
                     }).build());
 
     public static void registerItemGroups() {
-        Creatus.LOGGER.info("Registering Item Groups for " +Creatus.MOD_ID);
+        Creatus.LOGGER.info("Registering Item Groups for " + Creatus.MOD_ID);
     }
 }

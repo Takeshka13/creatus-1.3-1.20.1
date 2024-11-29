@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "creatus:block/titan_block"
+    }
+  }
+}
