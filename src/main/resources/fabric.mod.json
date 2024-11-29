@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Takeshka13/creatus-1.3-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/creatus/icon.png",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.takeshi13.creatus.Creatus"
+		],
+		"client": [
+			"net.takeshi13.creatus.CreatusClient"
 		],
 		"fabric-datagen": [
 			"net.takeshi13.creatus.CreatusDataGenerator"
