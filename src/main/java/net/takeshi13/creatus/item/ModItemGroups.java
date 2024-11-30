@@ -19,8 +19,13 @@ public class ModItemGroups {
 
                         entries.add(ModItems.TITAN_INGOT);
                         entries.add(ModItems.TITAN_NUGGET);
+                        entries.add(ModItems.RAW_TITAN);
+                        entries.add(ModItems.CRUSHED_RAW_TITAN);
 
                         entries.add(ModBlocks.TITAN_BLOCK);
+                        entries.add(ModBlocks.RAW_TITAN_BLOCK);
+                        entries.add(ModBlocks.TITAN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TITAN_ORE);
 
                     }).build());
 

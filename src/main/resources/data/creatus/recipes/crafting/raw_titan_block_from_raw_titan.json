@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "creatus:raw_titan"
+    }
+  },
+  "result": {
+    "item": "creatus:raw_titan_block"
+  }
+}

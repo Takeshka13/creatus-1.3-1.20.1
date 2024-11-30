@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "creatus:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "creatus:titan_block"
+  }
+}

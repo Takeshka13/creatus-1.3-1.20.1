@@ -1,0 +1,13 @@
+{
+  "item.creatus.titan_ingot": "Титановый слиток",
+  "item.creatus.titan_nugget": "Кусочек титана",
+  "item.creatus.raw_titan": "Рудный титан",
+  "item.creatus.crushed_raw_titan": "Дроблённый рудный тина",
+
+  "block.creatus.titan_block": "Титановый блок",
+  "block.creatus.raw_titan_block": "Блок рудного титана",
+  "block.creatus.deepslate_titan_ore": "Глубокоземельная титановая руда",
+  "block.creatus.titan_ore": "Титановая руда",
+
+  "itemgroup.creatus": "Creatus Group"
+}

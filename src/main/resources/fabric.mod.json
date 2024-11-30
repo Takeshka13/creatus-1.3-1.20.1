@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.takeshi13.creatus.CreatusDataGenerator"
+		],
+		"datagen": [
+			"net.takeshi13.creatus.CreatusDataGenerator"
 		]
 	},
 	"mixins": [

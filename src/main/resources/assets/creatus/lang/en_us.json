@@ -1,8 +1,13 @@
 {
-  "item.creatus.titan_ingot": "Titan ingot",
-  "item.creatus.titan_nugget": "Titan nugget",
+  "item.creatus.titan_ingot": "Titan Ingot",
+  "item.creatus.titan_nugget": "Titan Nugget",
+  "item.creatus.raw_titan": "Raw Titan",
+  "item.creatus.crushed_raw_titan": "Crushed Raw Titan",
 
-  "block.creatus.titan_block": "Block of titan",
+  "block.creatus.titan_block": "Block of Titan",
+  "block.creatus.raw_titan_block": "Block of Raw Titan",
+  "block.creatus.deepslate_titan_ore": "Deepslate Titan Ore",
+  "block.creatus.titan_ore": "Titan Ore",
 
   "itemgroup.creatus": "Creatus Group"
 }

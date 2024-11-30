@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "creatus:titan_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "creatus:crushed_raw_titan"
+    },
+    {
+      "chance": 0.75,
+      "item": "creatus:crushed_raw_titan"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

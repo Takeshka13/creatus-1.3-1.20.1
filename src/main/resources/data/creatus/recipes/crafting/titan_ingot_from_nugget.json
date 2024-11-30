@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "creatus:titan_nugget"
+    }
+  },
+  "result": {
+    "item": "creatus:titan_ingot"
+  }
+}

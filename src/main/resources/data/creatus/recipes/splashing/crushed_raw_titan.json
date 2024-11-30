@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "creatus:crushed_raw_titan"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "creatus:titan_nugget"
+    }
+  ]
+}

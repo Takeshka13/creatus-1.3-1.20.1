@@ -14,10 +14,14 @@ public class ModItems {
 
     public static final Item TITAN_INGOT = registerItem("titan_ingot", new Item(new FabricItemSettings()));
     public static final Item TITAN_NUGGET = registerItem("titan_nugget", new Item(new FabricItemSettings()));
+    public static final Item RAW_TITAN = registerItem("raw_titan", new Item(new FabricItemSettings()));
+    public static final Item CRUSHED_RAW_TITAN = registerItem("crushed_raw_titan", new Item(new FabricItemSettings()));
 
     private static void  addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TITAN_INGOT);
         entries.add(TITAN_NUGGET);
+        entries.add(RAW_TITAN);
+        entries.add(CRUSHED_RAW_TITAN);
     }
 
     private static Item registerItem(String name, Item item) {

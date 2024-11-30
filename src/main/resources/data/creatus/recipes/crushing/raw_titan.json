@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "creatus:raw_titan"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "creatus:crushed_raw_titan"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
